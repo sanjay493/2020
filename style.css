@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Alata', sans-serif;
+    padding: 1em;
 }
 
 nav{
@@ -43,6 +44,28 @@ color: darkslategray;
 text-align: justify;
 }
 
+.cur_learn{
+    max-width: 1000px;
+    margin: 10px auto;
+    background: red;
+    color: seashell;
+    font-family: 'Nunito' sans-serif;
+    line-height: 1.5;
+    font-size: 1.3rem;
+
+}
+.project{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.pro_title{
+    background: blue;
+}
+.pro_img{
+display: block;
+max-width: 100%;
+}
+
 @media screen and (max-width: 750px) {
     nav{
         display: flex;
@@ -59,6 +82,28 @@ text-align: justify;
      align-items: center;
 
     }
-  
    
+}
+@media screen and (min-width:750px){
+    
+    .project{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "title img"
+                                            "desc img";
+    }
+    .pro_title{
+     grid-column: 1/-1;
+     grid-row: 1;
+     left: -2em;
+    }
+    .pro_description{
+    grid-area: desc;
+    }
+ .pro_img{
+     grid-area: img;
+     position: relative;
+     margin: auto;
+    
+ }
 }
