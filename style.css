@@ -5,11 +5,14 @@
 }
 
 nav{
+  top: 0;
+height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #e99cf3;
     color: blue;
+    position: sticky;
 }
 .nav-list{
     margin-left: auto;
@@ -27,36 +30,34 @@ padding: 0 10px;
     display: block;
 }
 section{
-    
+    max-width: 1000px;
+    margin: 10px auto;  
+    line-height: 1.5;
+font-size: 1.3rem;
+padding-top: 60px;
 }
 .about{
-    max-width: 1000px;
-    margin: 10px auto;
+   
     background: url('img/About_Me.png') center center no-repeat;
     background-attachment:scroll;
     background-size: cover;
 }
 .about-text{
 font-family: 'Nunito' sans-serif;
-line-height: 1.5;
-font-size: 1.3rem;
 color: darkslategray;
 text-align: justify;
 }
 
 .cur_learn{
-    max-width: 1000px;
-    margin: 10px auto;
+   
     background: red;
     color: seashell;
     font-family: 'Nunito' sans-serif;
-    line-height: 1.5;
-    font-size: 1.3rem;
+  
 
 }
 .project{
-    max-width: 1000px;
-    margin: 0 auto;
+   
 }
 .pro_title{
     background: blue;
