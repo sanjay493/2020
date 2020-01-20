@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e99cf3;
+    color: blue;
+}
+.nav-list{
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+}
+.list-link{
+padding: 0 10px;
+}
+.list-link a{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+}
+section{
+    
+}
+.about{
+    max-width: 1000px;
+    margin: 10px auto;
+    background: url('img/About_Me.png') center center no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+.about-text{
+font-family: 'Nunito' sans-serif;
+line-height: 1.5;
+font-size: 1.3rem;
+color: darkslategray;
+text-align: justify;
+}
+
+@media screen and (max-width: 750px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+    }
+   .nav-list {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+     align-items: center;
+
+    }
+  
+   
+}
