@@ -18,8 +18,17 @@ height: 50px;
     display: flex;
     list-style: none;
 }
-.list-link{
+.foot-social{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.fab{
 padding: 0 10px;
+font-size: 1.8em;
 }
 .list-link a{
     color: darkblue;
