@@ -66,7 +66,11 @@ text-align: justify;
 display: block;
 max-width: 100%;
 }
-
+.output{
+    padding: 4em;
+    font: 500;
+    font-weight: 700;
+}
 @media screen and (max-width: 750px) {
     nav{
         display: flex;
