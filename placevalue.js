@@ -29,7 +29,7 @@ for( var i=0; i<outPut.length;i++){
     if(i==0){
         //console.log(placeValue + ' ' + outPut[i]);
     
-       outDisplay.innerHTML=placeValue + 's   Place Value is : ' + outPut[i];
+       outDisplay.innerHTML=`<p>${ placeValue}s   Place Value is :  ${outPut[i]}</p>`;
     }
  else
     {

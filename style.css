@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     font-family: 'Alata', sans-serif;
-    padding: 1em;
 }
 
 nav{
@@ -35,6 +34,11 @@ section{
     line-height: 1.5;
 font-size: 1.3rem;
 padding-top: 60px;
+border-bottom: 2px solid #e99cf3;
+}
+p{
+    line-height: 1.4rem;
+    font-size: 1.3rem;
 }
 .about{
    
