@@ -11,26 +11,42 @@
     <title>Ks Learning from Online Resources</title>
 </head>
 <body>
-  <nav>
-      <div class="nav-brand">Ks Surf to Learn</div>
-      <div class="nav-list-class">
-      <ul class="nav-list">
-          <li class="list-link"><a href="#about">About</a></li>
-          <li class="list-link"><a href="#cur_learn">Currently Learning</a></li>
-          <li class="list-link"><a href="#all_resources">New Resources</a></li>
-          <li class="list-link"><a href="#all_resources">Free Resources</a></li>
-          <li class="list-link"><a href="#all_resources">All Surfed Resources</a></li>
-      </ul>
+  <header>
+    <div class="row">
+        <a href="#main-menu" id="main-menu-toggle" class="menu-toggle" aria-label="Open main menu">
+            <span class="sr-only">Open main menu</span>
+            <span class="fa fa-bars" aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+            <h1><i class="fab fa-osi"></i> From Open Sources</h1>
+            <h2>Ks Surf to Learn</h2>
+        </div>
     </div>
-  </nav>
-  <section class="about" id="about">
+    <nav id="main-menu" class="main-menu" aria-label="Main menu">
+        <a href="#main-menu-toggle" id="main-menu-close" class="menu-close" aria-label="Close main menu">
+            <span class="sr-only">Close main menu</span>
+            <span class="fa fa-close" aria-hidden="true"></span>
+        </a>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#cur_learn">Currently Learning</a></li>
+          <li><a href="#all_resources">New Resources</a></li>
+          <li><a href="#all_resources">Free Resources</a></li>
+          <li><a href="#all_resources">All Surfed Resources</a></li>
+ </ul>
+    </nav>
+   <a href="#main-menu-toggle" class="backdrop" tabindex="-1" hidden></a>
+</header>
+
+   <section class="about" id="about">
     <div class="about-text">
         <h1>About Me</h1>
         <p>Still i am learning like a newbies, have passion to acquire some knowledge and help others in web Development.</p>
         <p> I have followed many online tutor available in online media. Some are doing their job more professional some are here by their passion. One day, I had gone through web surfing and find one of the amazing personality, who is writing articles and developing application for open source. Her portfolio page is had list of articles but no ads, she simply hate to put advertizement of per profile. She don't offer any money of her articles.  Her name is <a href="https://www.taniarascia.com/">
             Tania Rasica </a>from Austria  </p>
             <p>Most of my free time is dedicated in surfing web contents related to web development and Security updates, vulnerability patches etc.</p>
-    </div>
+          </div>
+           
   </section>
   <section class="cur_learn" id="cur_learn">
      <h1>Currently Learning</h1>
@@ -80,8 +96,8 @@
        <div class="outputFact"></div>
   </section>
   <section>
-    <a href="https://sanjay493.github.io/RMD_Page/">RMD Production Data fetching from Google Sheet and Graph</a>
-    <a href="https://sanjay493.github.io/Jquery-Counter/">Counter with JQuery</a>
+    <p><a href="https://sanjay493.github.io/RMD_Page/">RMD Production Data fetching from Google Sheet and Graph</a></p>
+   <p><a href="https://sanjay493.github.io/Jquery-Counter/">Counter with JQuery</a></p>
   </section>
     <footer>
       <ul class="foot-social">
