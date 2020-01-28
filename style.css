@@ -253,8 +253,12 @@ padding: 0 10px;
    
 }
 .pro_title{
-    background: blue;
+    background:#358ccb;
     color: #fff;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 5px;
+    font-family: Libertad, Avenir, sans-serif;
 }
 .pro_img{
 display: block;
